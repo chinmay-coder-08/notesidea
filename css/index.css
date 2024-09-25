@@ -1,4 +1,34 @@
 .first_heading{
     font-family: SF Pro Display;
+    font-weight: 600;
     text-align: center;
 }
+/* Navbar */
+ul {
+    list-style: none;
+}
+
+.logo {
+    width: 90px;
+    height: 90px;
+    margin-right: -23px;
+    margin-bottom: -9px;
+    transition: 0.15s ease-in-out;
+  }
+  
+  .logo:hover {
+    padding: 6px;
+  }
+  
+  .navbar-collapse {
+    margin: 13px 10px;
+  }
+  
+  .nav-item {
+    font-family: "Alegreya Sans", sans-serif;
+    font-size: 30px;
+  }
+  
+  .nav-link:hover {
+    color: rgb(196 194 194) !important;
+ }
