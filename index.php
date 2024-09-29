@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NotesIdea - Save notes on cloud. You can save notes and get them on any device</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./htdocs/css/index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body>
@@ -44,7 +44,7 @@
     </div>
     
     <h1 class="first_heading">NotesIdea</h1>
-    <h2 class="first_heading">You can save your notes on cloud</h1>
+    <h2 class="first_heading">You can save your notes safely on cloud</h1>
     <h3 class="first_heading">
     <?php
         echo "This is PHP script";
