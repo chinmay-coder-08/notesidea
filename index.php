@@ -27,21 +27,21 @@
                                 <a class="nav-link" href="" style="color: black;">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="" style="color: black;">My Notes</a>
+                                <a class="nav-link" href="./dashboard.php" style="color: black;">My Notes</a>
                             </li>
                             <li class="nav-item">
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="" style="color: black;">Add Note</a>
+                                <a class="nav-link" href="./add_note.php" style="color: black;">Add Note</a>
                             </li>
 
                         </ul>
                         <ul class="navbar-nav mb-2 mb-lg-0">
                             <li class="nav-item">
-                                <a class="nav-link" href="" style="color: black;">Register</a>
+                                <a class="nav-link" href="./register.php" style="color: black;">Register</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="" style="color: black;">Login</a>
+                            <li class="nav-item" >
+                                <a class="nav-link" href="./login.php" style="color: black;">Login</a>
                             </li>
                         </ul>
                     </div>
@@ -54,7 +54,8 @@
                 <span class="notesidea-text">Notesidea!</span>
             </h1>
             <h3 class="welcomedesc mx-4">Collect your thoughts and keep it on a central place like Ideas, School Notes,
-                Todos, Lists, and Reminders</h3>
+                Todos, Lists, and Reminders
+            </h3>
         </div>
         <div class="custom-shape-divider-bottom-1643471312">
             <div class="custom-shape-divider-bottom-1643471356">
@@ -71,6 +72,9 @@
         <div class="whyCN">
             <div class="whycoolnotes d-flex justify-content-center">
                 <h1 class="whycoolnotesheading heading">Why Cool Notes?</h1>
+                <?php
+    echo "This is PHP script"
+    ?>
             </div>
             <div class="points">
                 <div class="pointimgparent"> <img src="./static/images/webbased.png" alt="webbased" class="pointimg" />
@@ -89,7 +93,8 @@
             </div>
         </div>
     </div>
-    <div style="margin: 4rem ">
+    <!-- Get started -->
+    <!-- <div style="margin: 4rem ">
         <h1 style="font-size: 50px" class="text-center my-5 heading footerheading">Start saving notes</h1>
         <div class="footeritem">
             <div style="margin-top: 2rem" class="leftside">
@@ -99,7 +104,7 @@
             <div class="rightside">
             </div>
         </div>
-    </div>
+    </div> -->
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
